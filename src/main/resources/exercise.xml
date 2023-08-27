@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Customer Bean Configuration -->
+    <bean id="customer" class="com.example.springCore.xmlConfiguration.exercise.Customer">
+        <constructor-arg value="Aamir" />
+        <constructor-arg value="Shaikh" />
+        <constructor-arg value="aamir@example.com" />
+    </bean>
+
+    <!-- Order Bean Configuration -->
+    <bean id="order" class="com.example.springCore.xmlConfiguration.exercise.Order">
+        <constructor-arg value="1" />
+        <constructor-arg ref="customer" />
+    </bean>
+
+    <!-- OrderService Bean Configuration -->
+    <bean id="orderService" class="com.example.springCore.xmlConfiguration.exercise.OrderService">
+        <constructor-arg ref="order" />
+    </bean>
+</beans>

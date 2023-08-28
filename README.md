@@ -1,5 +1,5 @@
 # spring-framework-core
- This repository hosts a collection of exercises and mini-projects focused on learning Spring Core concepts. It covers a range of topics including Spring Bean Scopes, Component Lifecycle Annotations, Loose Coupling, Dependency Injection, Jakarta CDI-based Dependency Injection, Lazy and Eager Initialization, Spring Context, and XML-based Bean Config
+ This repository hosts a collection of exercises and mini-projects focused on learning Spring Core concepts. It covers a range of topics including Spring Bean Scopes, Component Lifecycle Annotations, Loose Coupling, Dependency Injection, Jakarta CDI-based Dependency Injection, Lazy and Eager Initialization, Spring Context, and XML-based Bean Configuration. Each directory contains examples and exercises that provide hands-on experience with these Spring Core concepts, promoting a comprehensive understanding of Spring framework fundamentals.
 
 # Table of Contents
 
